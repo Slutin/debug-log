@@ -1,0 +1,7 @@
+Error:
+org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [TBchatServlet] in context with path [/TBCB] threw exception java.lang.IllegalArgumentException: chatpack.TBmessageHandler is not an interface
+
+Solution:
+Specify name of package for artifacts generated for JAX-WS
+
+
